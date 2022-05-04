@@ -13,10 +13,12 @@ function mailService(email, firstName) {
   var mailOptions = {
     from: "lamianouri55@outlook.com", // sender address (who sends)
     to: email, // list of receivers (who receives)
-    subject: "Welcome to Branper", // Subject line
+    subject: "Welcome to Branper ", // Subject line
 
-    html: `Hello - we're excited you're here! </br>
-    Your subscription has been confirmed. 
+    html: `
+    Hello - we're excited you're here! </br>
+    Your subscription has been confirmed. You can now use your email as your password while logging in.
+   
     Thanks for joining our team.
    </br>
    have a nice day!
@@ -24,9 +26,6 @@ function mailService(email, firstName) {
    </br>
    </br>
    </br>
-   </br>
-   </br>
-   Contact us now :
    E-mail : info@branper.com
    </br>
    PhoneNumber: +216 56 219 219
